@@ -1,11 +1,18 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: minimal
+title: "About me"
+permalink: /about/index.html
+description: "Some description about Victor Igor..."
 ---
 
-This is a simple Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/).  Plus, you can find a lot of themes at [jekyllthemes.org](http://jekyllthemes.org/)
+<img itemprop="image" class="img-rounded about_perfil" src=" https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png" alt="My profile">
 
-You can find the source code for this theme at: <data data-icon="ei-sc-github"></data>  [jekyll-simple](https://github.com/wild-flame/jekyll-simple)
+<h2>My projects</h2>
 
-You can find the source code for Jekyll at <data data-icon="ei-sc-github"></data>  [jekyll](https://github.com/jekyll/jekyll)
+<div class="aboutme">
+	<ul class="recent">
+		{% for project in site.projects %}
+	    	<li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
+	    {% endfor %}
+	</ul>
+</div>
