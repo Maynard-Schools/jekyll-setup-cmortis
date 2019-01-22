@@ -9,8 +9,8 @@
 title: Connors Website
 email: cmortis13@gmail.com
 description: > This is the website I will be working on for the rest of the year!
-baseurl: "/jekyll-simple" # the subpath of your site, e.g. /blog
-url: "http://wildflame.me" # the base hostname & protocol for your site
+baseurl: "/jekyll-site
+url: "http://connorm.me/org-protocol-jekyll" # the base hostname & protocol for your site
 twitter_username: Taffyer 
 github_username:  wild-flame 
 
